@@ -8,3 +8,24 @@ tip = (percentTip/100*totalBill)
 individualTip = (tip/splitBill)
 netBill = str(individualTip+grossBill)
 print("Each person should pay " + netBill)
+
+# Name Character Application
+userName = input("What is your name?\n")
+numChar = str(len(userName))  # Typecasting or type conversion - changing userName variable from int 2 str
+print("Gdday, " + userName + ". Your name has " + numChar + " characters.")
+# Type check functions enables devs to check datatype of variables print(type(numChar))
+
+# Day 2.1 Coding challenge
+userNumber = input("Type a two digit number: ")
+digOne = int(userNumber[0])
+digTwo = int(userNumber[1])
+add = digOne + digTwo
+print(add)
+
+# BMI Calculator
+weight = int(input("Your weight in kgs: "))
+height = float(input("Your height in m: "))
+bmi = str(weight/height**2)
+print("Your BMI is " + bmi)
+
+
